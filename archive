@@ -1,4 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2020-09-08T03:36:24.502Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="VOxSHhTqrUNnJcBRdgd9" version="13.6.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-09-08T03:49:15.127Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="lgOvdfYzXi0LnTf1M_4b" version="13.6.6" type="github" pages="6">
+  <diagram id="vipNaf1hc66En4bFBwNR" name="storage portfolio">
+    <mxGraphModel dx="1186" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="CXTh5n9GubkbyZTol8sS-0" />
+        <mxCell id="CXTh5n9GubkbyZTol8sS-1" parent="CXTh5n9GubkbyZTol8sS-0" />
+        <mxCell id="CXTh5n9GubkbyZTol8sS-3" value="Objects" style="swimlane;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-1">
+          <mxGeometry x="50" y="110" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="CXTh5n9GubkbyZTol8sS-18" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-3">
+          <mxGeometry x="60" y="61" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CXTh5n9GubkbyZTol8sS-19" value="AWS Simple&lt;br&gt;Storage Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-3">
+          <mxGeometry x="24" y="150" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CXTh5n9GubkbyZTol8sS-4" value="Block" style="swimlane;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-1">
+          <mxGeometry x="280" y="110" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="CXTh5n9GubkbyZTol8sS-17" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elastic_block_store;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-4">
+          <mxGeometry x="61" y="60" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CXTh5n9GubkbyZTol8sS-20" value="AWS Elastic&lt;br&gt;Block Store" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-4">
+          <mxGeometry x="25" y="150" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CXTh5n9GubkbyZTol8sS-7" value="File" style="swimlane;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-1">
+          <mxGeometry x="510" y="110" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="CXTh5n9GubkbyZTol8sS-11" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.fsx_for_lustre;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-7">
+          <mxGeometry x="260" y="60" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CXTh5n9GubkbyZTol8sS-12" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.fsx_for_windows_file_server;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-7">
+          <mxGeometry x="151" y="60" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CXTh5n9GubkbyZTol8sS-21" value="AWS Elastic&lt;br&gt;File Store" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-7">
+          <mxGeometry x="3" y="150" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CXTh5n9GubkbyZTol8sS-22" value="Amazon Elastic&lt;br&gt;File System for&lt;br&gt;Windows" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-7">
+          <mxGeometry x="115" y="155" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CXTh5n9GubkbyZTol8sS-24" value="Amazon Elastic&lt;br&gt;File System for&lt;br&gt;Lusture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-7">
+          <mxGeometry x="224" y="155" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="S695a2LhUflCG57Xn6fL-0" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elastic_file_system;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-7">
+          <mxGeometry x="39" y="60" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CXTh5n9GubkbyZTol8sS-14" value="Backup" style="swimlane;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-1">
+          <mxGeometry x="920" y="110" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="CXTh5n9GubkbyZTol8sS-13" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.backup;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-14">
+          <mxGeometry x="61" y="60" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CXTh5n9GubkbyZTol8sS-16" value="AWS&lt;br&gt;Backup" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-14">
+          <mxGeometry x="80" y="150" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="LDaxpGQF5HfIoP3K2nNC" name="archiving from different source">
     <mxGraphModel dx="1395" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -242,62 +298,6 @@
         </mxCell>
         <mxCell id="BkCQLgnQZd3Wv7nFcpD_-35" value="&amp;nbsp;4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="1">
           <mxGeometry x="708" y="355" width="20" height="20" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="vipNaf1hc66En4bFBwNR" name="storage portfolio">
-    <mxGraphModel dx="1186" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="CXTh5n9GubkbyZTol8sS-0" />
-        <mxCell id="CXTh5n9GubkbyZTol8sS-1" parent="CXTh5n9GubkbyZTol8sS-0" />
-        <mxCell id="CXTh5n9GubkbyZTol8sS-3" value="Objects" style="swimlane;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-1">
-          <mxGeometry x="50" y="110" width="200" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="CXTh5n9GubkbyZTol8sS-18" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-3">
-          <mxGeometry x="60" y="61" width="78" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="CXTh5n9GubkbyZTol8sS-19" value="AWS Simple&lt;br&gt;Storage Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-3">
-          <mxGeometry x="24" y="150" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="CXTh5n9GubkbyZTol8sS-4" value="Block" style="swimlane;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-1">
-          <mxGeometry x="280" y="110" width="200" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="CXTh5n9GubkbyZTol8sS-17" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elastic_block_store;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-4">
-          <mxGeometry x="61" y="60" width="78" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="CXTh5n9GubkbyZTol8sS-20" value="AWS Elastic&lt;br&gt;Block Store" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-4">
-          <mxGeometry x="25" y="150" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="CXTh5n9GubkbyZTol8sS-7" value="File" style="swimlane;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-1">
-          <mxGeometry x="510" y="110" width="380" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="CXTh5n9GubkbyZTol8sS-11" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.fsx_for_lustre;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-7">
-          <mxGeometry x="260" y="60" width="78" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="CXTh5n9GubkbyZTol8sS-12" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.fsx_for_windows_file_server;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-7">
-          <mxGeometry x="151" y="60" width="78" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="CXTh5n9GubkbyZTol8sS-21" value="AWS Elastic&lt;br&gt;File Store" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-7">
-          <mxGeometry x="3" y="150" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="CXTh5n9GubkbyZTol8sS-22" value="Amazon Elastic&lt;br&gt;File System for&lt;br&gt;Windows" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-7">
-          <mxGeometry x="115" y="155" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="CXTh5n9GubkbyZTol8sS-24" value="Amazon Elastic&lt;br&gt;File System for&lt;br&gt;Lusture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-7">
-          <mxGeometry x="224" y="155" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="S695a2LhUflCG57Xn6fL-0" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elastic_file_system;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-7">
-          <mxGeometry x="39" y="60" width="78" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="CXTh5n9GubkbyZTol8sS-14" value="Backup" style="swimlane;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-1">
-          <mxGeometry x="920" y="110" width="200" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="CXTh5n9GubkbyZTol8sS-13" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.backup;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-14">
-          <mxGeometry x="61" y="60" width="78" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="CXTh5n9GubkbyZTol8sS-16" value="AWS&lt;br&gt;Backup" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CXTh5n9GubkbyZTol8sS-14">
-          <mxGeometry x="80" y="150" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
